@@ -1,0 +1,12 @@
+<div class="header-wrapper">
+  <div class="menu-wrapper">
+    <mat-menu #appMenu="matMenu">
+      <button mat-menu-item routerLink="/classes">Classes</button>
+      <button mat-menu-item routerLink="/students">Students</button>
+    </mat-menu>
+    <button mat-icon-button [matMenuTriggerFor]="appMenu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+  </div>
+  <h1>Organizer</h1>
+</div>

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-app';
+
+  constructor() {};
+
+  ngOnInit() {};
+
+  onCreatePost(postData: {classID: string; students: string}) {
+    console.log(postData);
+  }
 }
